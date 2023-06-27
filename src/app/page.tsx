@@ -1,3 +1,5 @@
+
+
 const Home = () => {
   return (
     <div className='p-8 justify-center items-center v-screen flex space-x-4 space-y-4' >
@@ -5,6 +7,11 @@ const Home = () => {
       <div className="flex justify-center ">
         <h1 className="justfy-center">MBS Login</h1>
       </div>
+
+      <div>
+        <h1><link href="/products">Products</link></h1>
+      </div>
+
       <form className='space-y-4 h-8' id="form">
         <div className="flex space-x-10">
           <label>UserName</label>
