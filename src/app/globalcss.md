@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/*:root {
+:root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -18,13 +18,10 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: whitesmoke; 
-  display: flex;
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
-
-form {
-  background-color: wheat;
-  display: block;
-  justify-content: center;
-  justify-items: center;
-}*/
