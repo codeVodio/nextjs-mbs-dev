@@ -1,9 +1,12 @@
 import Link from "next/link";
+import Navbar from "./components/Navbar";
 
 const Home = () => {
   return (
-    <div className="p-8 justify-center items-center v-screen flex space-x-4 space-y-4">
-      <div className="flex justify-center ">
+    <div className="p-8 justify-center items-center v-screen">
+      <Navbar />
+
+      {/* <div className="flex justify-center ">
         <h1 className="justfy-center">MBS Login</h1>
       </div>
 
@@ -17,9 +20,7 @@ const Home = () => {
         <h1>
           <Link href="/standards">Standards</Link>
         </h1>
-      </div>
-
-     
+      </div>*/}
     </div>
   );
 };

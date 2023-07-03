@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import getProducts from "../utils/getProducts";
 
-export default function Products() {
+export default function Standards() {
   const [standards, setStandards] = useState([]);
   const [error, setError] = useState(null);
 
